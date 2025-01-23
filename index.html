@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Area do login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Newa&display=swap" rel="stylesheet">
+
+</head>
+<body> <div class="containericons"> 
+    <div class="button">
+        <div class="bola"></div>
+    </div>
+    <script>
+document.querySelector('.bola').addEventListener('click', (e) => {
+    document.body.classList.toggle('white');
+    document.querySelectorAll('.container1 h1, .container1 h2, .login, .suporte h3')
+        .forEach((element) => {
+            element.classList.toggle('text-light');
+        });
+    e.target.classList.toggle('bola-vaiprolado');
+});
+    </script>
+
+
+<div class="icones-sociais">
+    <a href="zuerinha.c"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.instagram.com/gu_bn4/"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+    <div class="container1"> 
+     <h1>Bem-Vindo</h1>
+     <h2>Faça seu Login aqui!</h2>
+    </div>
+    <div class="login"> 
+        <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            
+            <label for="email">Senha:</label>
+            <input type="senha" name="senha" id="senha" placeholder="Digite sua senha" required>
+
+        <a href="pagina1.html"><button type="submit">Entrar</button></a> 
+    </div>
+    <div class="suporte"> 
+        <h3>Esqueceu sua senha? <a href="forgotsenha.html"><span style="color: rgb(125, 124, 219);">Sim</span></h3></a> 
+        <h3>É novo por aqui? <a href="index2.html"><span style="color: rgb(125, 124, 219);">Sim</span></h3></a>
+        
+
+    </div>
+</body>
+</html>
