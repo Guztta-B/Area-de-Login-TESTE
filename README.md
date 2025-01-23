@@ -3,7 +3,7 @@
 <h2>Linguagens Utilizadas</h2>
 <h3>
   -HTML<br> 
-  -CSS
-  -Java
-  -C
+  -CSS<br> 
+  -Java<br>
+  -C<br>
 </h3>
